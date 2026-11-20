@@ -1,0 +1,6 @@
+p=float(input())
+i=float(input())
+t=int(input())
+interest=((p*i*t)/100)
+print(f"Interest after {t} Years = ${interest:.2f}")
+print(f"Total Amount after {t} Years = ${p+interest:.2f}")
